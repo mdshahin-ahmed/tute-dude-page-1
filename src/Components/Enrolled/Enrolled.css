@@ -1,0 +1,63 @@
+.coursedWrap {
+  background: linear-gradient(270deg, #800080 0%, #ff864c 100%);
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+}
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+  /* overflow-y: scroll; */
+  /* display: inline-flex; */
+}
+.topic span {
+  margin: 5px;
+  padding: 4px 9px;
+  border-radius: 20px;
+  border: 1.5px solid #eeaeae;
+}
+.fEnrolled {
+  color: #800080;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+.fEnrolled span {
+  color: #626262;
+}
+.coursedWrap h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.coursedWrap h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.price p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 35px;
+}
+.price p span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+.coursedWrap .date {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
