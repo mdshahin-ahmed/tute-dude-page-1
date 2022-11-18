@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import "./Header.css";
-import brandImage from "../../images/image_1.png";
+import brandImage from "../../../images/image_1.png";
 
 const Header = () => {
   return (
