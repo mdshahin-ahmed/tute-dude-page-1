@@ -46,7 +46,7 @@ const datas = [
 
 const Enrolled = () => {
   return (
-    <div className="container text-start">
+    <div className="container enrolledWrap text-start">
       <h5 className="fEnrolled">
         Friends who enrolled <span>({datas.length})</span>
       </h5>

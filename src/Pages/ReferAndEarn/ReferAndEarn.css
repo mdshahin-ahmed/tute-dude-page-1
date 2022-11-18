@@ -1,10 +1,13 @@
-.footer {
+.friendEnrolled {
+  text-decoration: none;
+}
+.friendEnrolled h5 {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: 72px;
   color: #800080;
+  margin-bottom: 20px;
   text-align: start;
 }
