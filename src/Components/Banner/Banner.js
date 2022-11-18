@@ -1,10 +1,11 @@
 import React from "react";
+import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div>
-      <div>{`UI/UX > Refer & Earn > Friends Referred`}</div>
-      <div>
+    <div className="container">
+      <div className="history">{`UI/UX > Refer & Earn > Friends Referred`}</div>
+      <div className="bannerWrap d-flex justify-content-between">
         <div className="referCode">
           <h6>Youre Referral Code</h6>
           <h5>EDCH54</h5>

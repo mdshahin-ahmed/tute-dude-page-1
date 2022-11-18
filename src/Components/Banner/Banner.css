@@ -1,0 +1,48 @@
+.bannerWrap {
+  margin-bottom: 50px;
+}
+.history {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  text-align: start;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.referCode h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.75em;
+  color: #000000;
+  border: 1.5px solid #dfdfdf;
+  border-radius: 10px;
+  padding: 15px 0px 15px 15px;
+}
+.referCode h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #800080;
+}
+.balance {
+  box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+  border-radius: 20px;
+  padding: 15px 24px;
+  align-self: center;
+}
+.balance h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+}
