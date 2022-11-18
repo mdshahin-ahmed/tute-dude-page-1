@@ -1,0 +1,57 @@
+.menuLink {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px !important;
+  line-height: 22px;
+  color: rgba(128, 0, 128, 0.25) !important;
+  margin-right: 28px;
+}
+.userLogoWrap {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #800080;
+  display: flex;
+  justify-content: center;
+  padding: 13px;
+  align-self: center;
+}
+.profile span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 6px;
+  margin-right: 10px;
+  color: #800080;
+  align-self: center;
+}
+.profile .fa-user {
+  color: white;
+  align-self: center;
+}
+.profileArrow {
+  align-self: center;
+  color: #800080;
+}
+.profile {
+  cursor: pointer;
+}
+@media ((max-width: 767px)) {
+  .profile {
+    background-color: #800080 !important;
+    padding: 12px 25px 12px 25px;
+    border-radius: 10px;
+  }
+  .profileArrow {
+    color: white;
+    /* margin-right: 10px; */
+  }
+  .profile span {
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
