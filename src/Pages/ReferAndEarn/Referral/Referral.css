@@ -1,0 +1,65 @@
+.referralWrap {
+  margin-top: 55px;
+}
+.referralBalanceWrap {
+  box-shadow: 0px 3px 100px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  text-align: start;
+  padding: 10px 20px 0px 20px;
+}
+.referralHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #800080;
+}
+.referralPrice {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000000;
+}
+.referralButton {
+  align-self: end;
+}
+.referralButton button {
+  width: 180px;
+  height: 40px;
+  color: white;
+  border: 0px;
+  background: #800080;
+  border-radius: 20px;
+}
+.referralTextWrap {
+  margin-bottom: 30px;
+}
+.referralCodeWrap h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.referralCode span {
+  border-radius: 10px;
+  border-image: linear-gradient(45deg, #ff864c, #800080) 10;
+  border-width: 2px;
+  border-style: solid;
+  padding: 15px 34px 15px 64px;
+}
+.referralCode span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1.5em;
+  color: #800080;
+}

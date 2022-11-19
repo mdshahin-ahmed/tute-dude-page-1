@@ -1,3 +1,25 @@
+.historyWrap {
+  text-align: start;
+  margin-top: 30px;
+}
+.historyWrap span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+  padding-right: 5px;
+}
+.historyLink a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
 .friendEnrolled {
   text-decoration: none;
 }

@@ -1,10 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Banner.css";
 
 const Banner = () => {
   return (
     <div className="container">
-      <div className="history">{`UI/UX > Refer & Earn > Friends Referred`}</div>
+      <div className="historyWrap friendReferredHistory">
+        <span>UI/UX</span>
+        <span>{`>`}</span>
+        <span className="historyLink">
+          <Link to="/referAndEarn">{`Refer & Earn`}</Link>
+        </span>
+        <span>{`>`}</span>
+        <span className="historyLink">
+          <Link to="/friendRefferd">{`Friends Referred`}</Link>
+        </span>
+      </div>
+      <div className="goBack d-block d-md-none">
+        <Link to="/referAndEarn">
+          <i className="fa-solid fa-arrow-left"></i>
+          <span>go back</span>
+        </Link>
+      </div>
       <div className="bannerWrap d-flex justify-content-between">
         <div className="referCode">
           <h6>Youre Referral Code</h6>
