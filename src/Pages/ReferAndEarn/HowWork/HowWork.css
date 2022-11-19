@@ -1,0 +1,38 @@
+.howWork {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #800080;
+  text-align: start;
+  margin-bottom: 20px;
+}
+.workImageWrap {
+  height: 65px;
+  min-width: 65px;
+  background: rgba(217, 217, 217, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.workTextWrap h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.workTextWrap p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+.workWrap {
+  margin-bottom: 30px;
+}
