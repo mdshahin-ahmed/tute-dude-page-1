@@ -10,8 +10,18 @@
 .topic {
   display: flex;
   flex-wrap: wrap;
-  /* overflow-y: scroll; */
-  /* display: inline-flex; */
+  overflow-y: auto;
+  height: 90px;
+}
+.topic::-webkit-scrollbar {
+  width: 5px;
+}
+.topic::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.topic::-webkit-scrollbar-thumb {
+  background: #eeaeae;
+  border-radius: 2.5px;
 }
 .topic span {
   margin: 5px;
